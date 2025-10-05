@@ -1,0 +1,970 @@
+[{
+  "_id": "60c72b2f9b1d7d001c8e4a1a",
+  "title": "Bohemian Rhapsody",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a1b",
+      "name": "Queen"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a1c",
+    "title": "A Night at the Opera",
+    "release_date": "1975-11-21T00:00:00.000Z"
+  },
+  "duration_ms": 355000,
+  "genres": [
+    "rock",
+    "progressive rock"
+  ],
+  "tags": {
+    "mood": "dramático",
+    "theme": "existencial"
+  },
+  "reproductions": {
+    "$numberLong": "2500000000"
+  },
+  "available_markets": [
+    "US",
+    "GB",
+    "CA",
+    "MX",
+    "AU"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a1d",
+  "title": "Shape of You",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a1e",
+      "name": "Ed Sheeran"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a1f",
+    "title": "÷ (Divide)",
+    "release_date": "2017-03-03T00:00:00.000Z"
+  },
+  "duration_ms": 233713,
+  "genres": [
+    "pop",
+    "dance-pop"
+  ],
+  "tags": {
+    "mood": "pegadizo",
+    "theme": "romance"
+  },
+  "reproductions": {
+    "$numberLong": "3400000000"
+  },
+  "available_markets": [
+    "US",
+    "GB",
+    "DE",
+    "JP",
+    "BR"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a20",
+  "title": "Smells Like Teen Spirit",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a21",
+      "name": "Nirvana"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a22",
+    "title": "Nevermind",
+    "release_date": "1991-09-24T00:00:00.000Z"
+  },
+  "duration_ms": 301920,
+  "genres": [
+    "grunge",
+    "alternative rock"
+  ],
+  "tags": {
+    "mood": "energético",
+    "theme": "angustia"
+  },
+  "reproductions": 1200000000,
+  "available_markets": [
+    "US",
+    "GB",
+    "FR",
+    "AU"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a23",
+  "title": "Billie Jean",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a24",
+      "name": "Michael Jackson"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a25",
+    "title": "Thriller",
+    "release_date": "1982-11-30T00:00:00.000Z"
+  },
+  "duration_ms": 294000,
+  "genres": [
+    "pop",
+    "r&b",
+    "dance"
+  ],
+  "tags": {
+    "mood": "clásico",
+    "theme": "drama"
+  },
+  "reproductions": 950000000,
+  "available_markets": [
+    "US",
+    "GB",
+    "DE",
+    "JP"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a26",
+  "title": "Bad Guy",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a27",
+      "name": "Billie Eilish"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a28",
+    "title": "When We All Fall Asleep, Where Do We Go?",
+    "release_date": "2019-03-29T00:00:00.000Z"
+  },
+  "duration_ms": 194000,
+  "genres": [
+    "pop",
+    "alt-pop"
+  ],
+  "tags": {
+    "mood": "oscuro",
+    "theme": "rebeldía"
+  },
+  "reproductions": 1800000000,
+  "available_markets": [
+    "US",
+    "MX",
+    "AU",
+    "DE"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a29",
+  "title": "Blinding Lights",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a2a",
+      "name": "The Weeknd"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a2b",
+    "title": "After Hours",
+    "release_date": "2020-03-20T00:00:00.000Z"
+  },
+  "duration_ms": 200000,
+  "genres": [
+    "synth-pop",
+    "pop"
+  ],
+  "tags": {
+    "mood": "nostálgico",
+    "theme": "ciudad"
+  },
+  "reproductions": {
+    "$numberLong": "3800000000"
+  },
+  "available_markets": [
+    "US",
+    "GB",
+    "DE",
+    "BR",
+    "JP"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a2c",
+  "title": "Hotel California",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a2d",
+      "name": "Eagles"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a2e",
+    "title": "Hotel California",
+    "release_date": "1976-12-08T00:00:00.000Z"
+  },
+  "duration_ms": 391300,
+  "genres": [
+    "rock",
+    "folk rock"
+  ],
+  "tags": {
+    "mood": "melancólico",
+    "theme": "viaje"
+  },
+  "reproductions": 800000000,
+  "available_markets": [
+    "US",
+    "CA",
+    "MX",
+    "DE"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a2f",
+  "title": "Havana",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a30",
+      "name": "Camila Cabello"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a31",
+    "title": "Camila",
+    "release_date": "2018-01-12T00:00:00.000Z"
+  },
+  "duration_ms": 217433,
+  "genres": [
+    "latin pop",
+    "r&b"
+  ],
+  "tags": {
+    "mood": "tropical",
+    "theme": "amor"
+  },
+  "reproductions": {
+    "$numberLong": "2200000000"
+  },
+  "available_markets": [
+    "US",
+    "MX",
+    "ES",
+    "BR"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a32",
+  "title": "Titi Me Preguntó",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a33",
+      "name": "Bad Bunny"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a34",
+    "title": "Un Verano Sin Ti",
+    "release_date": "2022-05-06T00:00:00.000Z"
+  },
+  "duration_ms": 243455,
+  "genres": [
+    "reggaeton",
+    "latin urban"
+  ],
+  "tags": {
+    "mood": "fiesta",
+    "theme": "vida"
+  },
+  "reproductions": 1500000000,
+  "available_markets": [
+    "MX",
+    "ES",
+    "US",
+    "CO",
+    "AR"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a35",
+  "title": "Lose Yourself",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a36",
+      "name": "Eminem"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a37",
+    "title": "8 Mile (Music from and Inspired by the Motion Picture)",
+    "release_date": "2002-10-29T00:00:00.000Z"
+  },
+  "duration_ms": 326000,
+  "genres": [
+    "hip-hop",
+    "rap"
+  ],
+  "tags": {
+    "mood": "inspirador",
+    "theme": "superación"
+  },
+  "reproductions": 1100000000,
+  "available_markets": [
+    "US",
+    "GB",
+    "DE",
+    "JP"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a38",
+  "title": "Don't Stop Me Now",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a1b",
+      "name": "Queen"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a39",
+    "title": "Jazz",
+    "release_date": "1978-11-10T00:00:00.000Z"
+  },
+  "duration_ms": 211000,
+  "genres": [
+    "rock",
+    "glam rock"
+  ],
+  "tags": {
+    "mood": "eufórico",
+    "theme": "fiesta"
+  },
+  "reproductions": 1300000000,
+  "available_markets": [
+    "US",
+    "GB",
+    "MX",
+    "DE",
+    "FR"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a3a",
+  "title": "Despacito",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a3b",
+      "name": "Luis Fonsi"
+    },
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a3c",
+      "name": "Daddy Yankee"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a3d",
+    "title": "Vida",
+    "release_date": "2017-02-12T00:00:00.000Z"
+  },
+  "duration_ms": 228000,
+  "genres": [
+    "latin pop",
+    "reggaeton"
+  ],
+  "tags": {
+    "mood": "sensual",
+    "theme": "romance"
+  },
+  "reproductions": 1200000000,
+  "available_markets": [
+    "ES",
+    "MX",
+    "US",
+    "CO",
+    "AR",
+    "BR"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a3e",
+  "title": "Rolling in the Deep",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a3f",
+      "name": "Adele"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a40",
+    "title": "21",
+    "release_date": "2011-01-24T00:00:00.000Z"
+  },
+  "duration_ms": 228000,
+  "genres": [
+    "soul",
+    "pop"
+  ],
+  "tags": {
+    "mood": "potente",
+    "theme": "desamor"
+  },
+  "reproductions": 1400000000,
+  "available_markets": [
+    "US",
+    "GB",
+    "DE",
+    "AU"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a41",
+  "title": "Livin' on a Prayer",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a42",
+      "name": "Bon Jovi"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a43",
+    "title": "Slippery When Wet",
+    "release_date": "1986-08-18T00:00:00.000Z"
+  },
+  "duration_ms": 249000,
+  "genres": [
+    "rock",
+    "hard rock"
+  ],
+  "tags": {
+    "mood": "inspirador",
+    "theme": "lucha"
+  },
+  "reproductions": 650000000,
+  "available_markets": [
+    "US",
+    "GB",
+    "CA",
+    "DE"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a44",
+  "title": "Happier Than Ever",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a27",
+      "name": "Billie Eilish"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a45",
+    "title": "Happier Than Ever",
+    "release_date": "2021-07-30T00:00:00.000Z"
+  },
+  "duration_ms": 298000,
+  "genres": [
+    "alt-pop",
+    "rock"
+  ],
+  "tags": {
+    "mood": "melancólico",
+    "theme": "relación"
+  },
+  "reproductions": 1100000000,
+  "available_markets": [
+    "US",
+    "MX",
+    "AU",
+    "JP"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a46",
+  "title": "Take on Me",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a47",
+      "name": "a-ha"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a48",
+    "title": "Hunting High and Low",
+    "release_date": "1985-06-01T00:00:00.000Z"
+  },
+  "duration_ms": 225000,
+  "genres": [
+    "synth-pop",
+    "new wave"
+  ],
+  "tags": {
+    "mood": "nostálgico",
+    "theme": "amor"
+  },
+  "reproductions": 900000000,
+  "available_markets": [
+    "US",
+    "GB",
+    "DE",
+    "FR"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a49",
+  "title": "Believer",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a4a",
+      "name": "Imagine Dragons"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a4b",
+    "title": "Evolve",
+    "release_date": "2017-06-23T00:00:00.000Z"
+  },
+  "duration_ms": 204000,
+  "genres": [
+    "alt-pop",
+    "rock"
+  ],
+  "tags": {
+    "mood": "épico",
+    "theme": "superación"
+  },
+  "reproductions": {
+    "$numberLong": "2300000000"
+  },
+  "available_markets": [
+    "US",
+    "MX",
+    "BR",
+    "AU"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a4c",
+  "title": "Come as You Are",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a21",
+      "name": "Nirvana"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a22",
+    "title": "Nevermind",
+    "release_date": "1991-09-24T00:00:00.000Z"
+  },
+  "duration_ms": 219000,
+  "genres": [
+    "grunge",
+    "alternative rock"
+  ],
+  "tags": {
+    "mood": "melancólico",
+    "theme": "identidad"
+  },
+  "reproductions": 850000000,
+  "available_markets": [
+    "US",
+    "GB",
+    "DE",
+    "FR"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a4f",
+  "title": "Someone You Loved",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a50",
+      "name": "Lewis Capaldi"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a51",
+    "title": "Divinely Uninspired to a Hellish Extent",
+    "release_date": "2019-05-17T00:00:00.000Z"
+  },
+  "duration_ms": 182000,
+  "genres": [
+    "pop",
+    "ballad"
+  ],
+  "tags": {
+    "mood": "triste",
+    "theme": "pérdida"
+  },
+  "reproductions": {
+    "$numberLong": "2600000000"
+  },
+  "available_markets": [
+    "US",
+    "GB",
+    "AU",
+    "DE",
+    "CA"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a52",
+  "title": "Watermelon Sugar",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a53",
+      "name": "Harry Styles"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a54",
+    "title": "Fine Line",
+    "release_date": "2019-12-13T00:00:00.000Z"
+  },
+  "duration_ms": 174000,
+  "genres": [
+    "pop",
+    "funk"
+  ],
+  "tags": {
+    "mood": "verano",
+    "theme": "felicidad"
+  },
+  "reproductions": {
+    "$numberLong": "2400000000"
+  },
+  "available_markets": [
+    "US",
+    "GB",
+    "MX",
+    "BR",
+    "JP"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a55",
+  "title": "Stairway to Heaven",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a56",
+      "name": "Led Zeppelin"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a57",
+    "title": "Led Zeppelin IV",
+    "release_date": "1971-11-08T00:00:00.000Z"
+  },
+  "duration_ms": 482000,
+  "genres": [
+    "hard rock",
+    "folk rock"
+  ],
+  "tags": {
+    "mood": "épico",
+    "theme": "viaje"
+  },
+  "reproductions": 550000000,
+  "available_markets": [
+    "US",
+    "GB",
+    "DE",
+    "FR"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a58",
+  "title": "As It Was",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a53",
+      "name": "Harry Styles"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a59",
+    "title": "Harry's House",
+    "release_date": "2022-05-20T00:00:00.000Z"
+  },
+  "duration_ms": 167303,
+  "genres": [
+    "pop",
+    "synth-pop"
+  ],
+  "tags": {
+    "mood": "nostálgico",
+    "theme": "cambio"
+  },
+  "reproductions": {
+    "$numberLong": "2800000000"
+  },
+  "available_markets": [
+    "US",
+    "GB",
+    "AU",
+    "DE",
+    "JP"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a5a",
+  "title": "Heat Waves",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a5b",
+      "name": "Glass Animals"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a5c",
+    "title": "Dreamland",
+    "release_date": "2020-08-07T00:00:00.000Z"
+  },
+  "duration_ms": 238805,
+  "genres": [
+    "indie pop",
+    "alternative"
+  ],
+  "tags": {
+    "mood": "melancólico",
+    "theme": "amor"
+  },
+  "reproductions": {
+    "$numberLong": "2500000000"
+  },
+  "available_markets": [
+    "US",
+    "GB",
+    "AU",
+    "CA"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a5d",
+  "title": "Another One Bites the Dust",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a1b",
+      "name": "Queen"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a5e",
+    "title": "The Game",
+    "release_date": "1980-06-30T00:00:00.000Z"
+  },
+  "duration_ms": 214000,
+  "genres": [
+    "funk rock",
+    "dance rock"
+  ],
+  "tags": {
+    "mood": "bailable",
+    "theme": "fiesta"
+  },
+  "reproductions": 700000000,
+  "available_markets": [
+    "US",
+    "GB",
+    "DE",
+    "FR"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a5f",
+  "title": "Levitating",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a60",
+      "name": "Dua Lipa"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a61",
+    "title": "Future Nostalgia",
+    "release_date": "2020-03-27T00:00:00.000Z"
+  },
+  "duration_ms": 203000,
+  "genres": [
+    "disco",
+    "pop"
+  ],
+  "tags": {
+    "mood": "alegre",
+    "theme": "romance"
+  },
+  "reproductions": 2100000000,
+  "available_markets": [
+    "US",
+    "GB",
+    "MX",
+    "BR",
+    "JP"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a62",
+  "title": "Sweet Child o' Mine",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a63",
+      "name": "Guns N' Roses"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a64",
+    "title": "Appetite for Destruction",
+    "release_date": "1987-07-21T00:00:00.000Z"
+  },
+  "duration_ms": 355000,
+  "genres": [
+    "hard rock",
+    "glam metal"
+  ],
+  "tags": {
+    "mood": "sentimental",
+    "theme": "amor"
+  },
+  "reproductions": 1500000000,
+  "available_markets": [
+    "US",
+    "GB",
+    "DE",
+    "JP"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a65",
+  "title": "All of Me",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a66",
+      "name": "John Legend"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a67",
+    "title": "Love in the Future",
+    "release_date": "2013-09-03T00:00:00.000Z"
+  },
+  "duration_ms": 269000,
+  "genres": [
+    "r&b",
+    "pop"
+  ],
+  "tags": {
+    "mood": "romántico",
+    "theme": "amor"
+  },
+  "reproductions": {
+    "$numberLong": "2700000000"
+  },
+  "available_markets": [
+    "US",
+    "GB",
+    "AU",
+    "MX"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a68",
+  "title": "Rolling Stones",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a69",
+      "name": "Rolling Stones"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a6a",
+    "title": "Sticky Fingers",
+    "release_date": "1971-04-23T00:00:00.000Z"
+  },
+  "duration_ms": 228000,
+  "genres": [
+    "rock",
+    "blues rock"
+  ],
+  "tags": {
+    "mood": "enérgico",
+    "theme": "rebeldía"
+  },
+  "reproductions": 850000000,
+  "available_markets": [
+    "US",
+    "GB",
+    "DE",
+    "FR"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a6b",
+  "title": "Shallow",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a6c",
+      "name": "Lady Gaga"
+    },
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a6d",
+      "name": "Bradley Cooper"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a6e",
+    "title": "A Star Is Born Soundtrack",
+    "release_date": "2018-10-05T00:00:00.000Z"
+  },
+  "duration_ms": 215000,
+  "genres": [
+    "folk pop",
+    "country rock"
+  ],
+  "tags": {
+    "mood": "emocional",
+    "theme": "romance"
+  },
+  "reproductions": 1900000000,
+  "available_markets": [
+    "US",
+    "GB",
+    "AU",
+    "DE"
+  ]
+},
+{
+  "_id": "60c72b2f9b1d7d001c8e4a6f",
+  "title": "Bad Romance",
+  "artists": [
+    {
+      "artist_id": "60c72b2f9b1d7d001c8e4a6c",
+      "name": "Lady Gaga"
+    }
+  ],
+  "album": {
+    "album_id": "60c72b2f9b1d7d001c8e4a70",
+    "title": "The Fame Monster",
+    "release_date": "2009-11-18T00:00:00.000Z"
+  },
+  "duration_ms": 294000,
+  "genres": [
+    "dance-pop",
+    "synth-pop"
+  ],
+  "tags": {
+    "mood": "energético",
+    "theme": "amor"
+  },
+  "reproductions": 1300000000,
+  "available_markets": [
+    "US",
+    "MX",
+    "BR",
+    "JP"
+  ]
+}]
