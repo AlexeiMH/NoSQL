@@ -61,13 +61,13 @@
             <header class="main-header">
 
                 <!-- Barra de Búsqueda -->
-                 
+
                 <div class="search-bar">
                     <button class="sidebar-button">
                         <Search class="search-icon" />
                     </button>
                     <input ref="mainSearchInput" type="text" placeholder="¿Qué quieres reproducir?" v-model="mainSearchQuery" />
-                    <button v-if="mainSearchQuery" @click="clearMainSearch" class="clear-button"> 
+                    <button v-if="mainSearchQuery" @click="clearMainSearch" class="clear-button">
                         <X class="clear-icon" />
                     </button>
                 </div>
@@ -169,9 +169,7 @@
 
 <script>
 import {
-    // Íconos de la barra lateral
     User, BookCopy, Search, X,
-    // Íconos del reproductor
     Shuffle, SkipBack, Play, SkipForward, Repeat, Mic2, ListMusic, MonitorSpeaker, Volume2
 } from 'lucide-vue-next';
 
@@ -216,7 +214,6 @@ export default {
         };
     },
     computed: {
-        // Filtra los items de la LIBRERÍA
         filteredLibraryItems() {
             let categoryFiltered = this.allLibraryItems.filter(item => item.type === this.activeLibraryFilter);
             const searchQuery = this.librarySearchQuery.trim().toLowerCase();
@@ -229,7 +226,6 @@ export default {
                 item.subtitle.toLowerCase().includes(searchQuery)
             );
         },
-        // Filtra los resultados de la BÚSQUEDA PRINCIPAL
         mainSearchResults() {
             const searchQuery = this.mainSearchQuery.trim().toLowerCase();
             if (!searchQuery) {
@@ -275,26 +271,17 @@ export default {
         toggleUserMenu() {
             this.isUserMenuOpen = !this.isUserMenuOpen;
         },
-        logout() {
-            console.log('Cerrando sesión...');
-            this.isUserMenuOpen = false;
-            // 1. Destruye la sesión eliminando el token.
-            // localStorage.removeItem('user-token');
-
-            // 2. Redirige a la página de inicio reemplazando el historial.
-            // this.$router.replace('/');
-        },
         closeOnClickOutside(event) {
             if (this.$refs.userMenuContainer && !this.$refs.userMenuContainer.contains(event.target)) {
                 this.isUserMenuOpen = false;
             }
-        },
-        mounted() {
-            document.addEventListener('click', this.closeOnClickOutside);
-        },
-        beforeUnmount() {
-            document.removeEventListener('click', this.closeOnClickOutside);
         }
+    },
+    mounted() {
+        document.addEventListener('click', this.closeOnClickOutside);
+    },
+    beforeUnmount() {
+        document.removeEventListener('click', this.closeOnClickOutside);
     }
 };
 </script>
@@ -781,7 +768,7 @@ body {
 }
 
 .play-button svg {
-   
+
     color: #000;
 }
 

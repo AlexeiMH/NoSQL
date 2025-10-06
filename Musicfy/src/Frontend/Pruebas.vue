@@ -25,7 +25,7 @@
         </div>
         <div class="library-items">
           <div class="library-search">
-              <Search class="search-icon"/>
+              <SearchIcon class="search-icon"/>
               <span>Alfabéticamente <List /></span>
           </div>
           <ul>
@@ -63,7 +63,7 @@
       </header>
 
       <div class="search-bar-mobile">
-        <Search class="search-icon" />
+        <SearchIcon class="search-icon" />
         <input type="text" placeholder="¿Qué quieres reproducir?" />
       </div>
 
@@ -126,25 +126,21 @@
 </template>
 
 <script>
-import { 
-    // Íconos de la barra lateral
-    Home, BookCopy, Plus, ArrowRight, Search, List,
-    // Íconos del contenido principal
+import {
+    Home, BookCopy, Plus, ArrowRight, Search as SearchIcon, List,
     ChevronLeft, ChevronRight, Bell, Users,
-    // Íconos del reproductor
     Shuffle, SkipBack, Play, SkipForward, Repeat, Mic2, ListMusic, MonitorSpeaker, Volume2
 } from 'lucide-vue-next';
 
 export default {
   name: 'SpotifyClone',
   components: {
-    Home, BookCopy, Plus, ArrowRight, Search, List,
+    Home, BookCopy, Plus, ArrowRight, SearchIcon, List,
     ChevronLeft, ChevronRight, Bell, Users,
     Shuffle, SkipBack, Play, SkipForward, Repeat, Mic2, ListMusic, MonitorSpeaker, Volume2
   },
   data() {
     return {
-      // Datos de la barra lateral
       libraryItems: [
         { title: 'Tus me gusta', subtitle: 'Playlist • 429 canciones', image: 'https://t.scdn.co/images/3099b3803ad9496896c43f2210d6b8de.png' },
         { title: '9Lana', subtitle: 'Artista', image: 'https://i.scdn.co/image/ab6761610000e5eb815b2ef6287f39446d8528ad' },
@@ -155,7 +151,6 @@ export default {
         { title: 'Ado\'s Utattemita Album', subtitle: 'Álbum • Ado', image: 'https://i.scdn.co/image/ab67616d0000b27391a27e738ed7b155979b44c2'},
         { title: 'Anime Openings Y Endings', subtitle: 'Playlist • Putupau', image: 'https://i.scdn.co/image/ab67706c0000da84e7159d332b5f6368b6b105a6'},
       ],
-      // Datos del contenido principal
       username: 'SiriusW',
       madeForYou: [
         { title: '', artists: 'Ado, Mrs. GREEN APPLE, Ryokuous...', color: '#008080' },
@@ -374,15 +369,15 @@ body {
 .special-tag img { width: 20px; }
 .special-tag span { font-weight: bold; color: white; margin-top: 4px; }
 .card-title { margin: 0 0 4px 0; font-size: 16px; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.card-subtitle { 
-  margin: 0; 
-  font-size: 14px; 
-  color: var(--text-subdued); 
-  display: -webkit-box; 
-  -webkit-line-clamp: 2; 
+.card-subtitle {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-subdued);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
   line-clamp: 2;
-  -webkit-box-orient: vertical; 
-  overflow: hidden; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 

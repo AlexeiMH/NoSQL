@@ -66,7 +66,7 @@
                         <Search class="search-icon" />
                     </button>
                     <input ref="mainSearchInput" type="text" placeholder="¿Qué quieres reproducir?" v-model="mainSearchQuery" />
-                    <button v-if="mainSearchQuery" @click="clearMainSearch" class="clear-button"> 
+                    <button v-if="mainSearchQuery" @click="clearMainSearch" class="clear-button">
                         <X class="clear-icon" />
                     </button>
                 </div>
