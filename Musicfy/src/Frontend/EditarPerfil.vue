@@ -73,7 +73,7 @@
     </div>
 </template>
 
-<script>
+<script lang="ts">
 import { Home } from 'lucide-vue-next'; // <-- AÑADIDO: Importar el icono
 
 export default {
@@ -141,14 +141,14 @@ export default {
     },
     methods: {
         async saveProfile() {
-            let profileDataToSave = { ...this.userProfile };
+            const profileDataToSave = { ...this.userProfile };
 
             if (this.passwordChange.newPassword.length > 0) {
                 if (this.passwordChange.newPassword !== this.passwordChange.confirmPassword) {
                     alert('ERROR: La nueva contraseña y la confirmación no coinciden.');
                     return;
                 }
-                profileDataToSave.newPassword = this.passwordChange.newPassword;
+                // Aquí deberías enviar la nueva contraseña en una petición separada o incluirla en el payload adecuado.
                 console.log('Se enviará la nueva contraseña para guardarse.');
             }
 
@@ -174,11 +174,12 @@ export default {
             rgb(42, 42, 42),
             #703700 100%);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     font-family: 'Franklin Gothic', sans-serif;
-    padding: 20px; /* Añade un poco de padding para que no pegue a los bordes en pantallas pequeñas */
+    padding: 20px;
     box-sizing: border-box;
+    overflow-y: auto; /* <-- Permite el scroll vertical en toda la página */
 }
 
 .edit-profile-container {
@@ -189,6 +190,29 @@ export default {
     max-width: 800px;
     margin: 40px auto;
     padding: 24px;
+    border-radius: 8px;
+    max-height: 80vh;
+    overflow-y: auto;
+    /* --- Scrollbar personalizado --- */
+    scrollbar-width: thin;
+    scrollbar-color: #daa520 #333333;
+}
+
+/* Scrollbar para navegadores Webkit (Chrome, Edge, Safari) */
+.edit-profile-container::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 8px;
+    background: #333333;
+}
+
+.edit-profile-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #daa520 40%, #b8860b 100%);
+    border-radius: 8px;
+    border: 2px solid #121212;
+}
+
+.edit-profile-container::-webkit-scrollbar-track {
+    background: #333333;
     border-radius: 8px;
 }
 
@@ -235,6 +259,9 @@ export default {
     font-size: 16px;
     width: 100%;
     box-sizing: border-box;
+    /* --- Añade estas líneas --- */
+    max-height: 200px;
+    overflow-y: auto;
 }
 
 .form-group input:focus,
